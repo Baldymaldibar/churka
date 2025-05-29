@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes rotateExample {
+      0%, 50% { transform: rotate(0deg); }
+      25% { transform: rotate(15deg); }
+      75% { transform: rotate(-15deg); }
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(45deg, #3498db, #2ecc71);
+      border-radius: 8px;
+      margin: 100px auto;
+      animation: rotateExample 4s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
